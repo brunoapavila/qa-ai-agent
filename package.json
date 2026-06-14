@@ -1,0 +1,24 @@
+{
+  "name": "qa-ai-agent",
+  "version": "1.0.0",
+  "description": "AI QA Agent",
+  "main": "dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/main.ts",
+    "start": "node dist/main.js",
+    "test:e2e": "playwright test"
+  },
+  "author": "Bruno Avila",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.60.0",
+    "@types/node": "^25.9.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@google/genai": "^2.8.0",
+    "dotenv": "^17.4.2"
+  }
+}

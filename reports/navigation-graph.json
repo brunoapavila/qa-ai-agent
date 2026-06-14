@@ -1,0 +1,54 @@
+{
+  "nodes": [
+    {
+      "url": "https://front-hmg-recebiveis.lavvi.com.br/dashboard",
+      "title": "",
+      "firstSeenAt": "2026-06-14T02:36:29.696Z",
+      "lastSeenAt": "2026-06-14T02:36:29.696Z"
+    },
+    {
+      "url": "https://front-hmg-recebiveis.lavvi.com.br/configuracoes/usuarios",
+      "title": "",
+      "firstSeenAt": "2026-06-14T02:36:31.144Z",
+      "lastSeenAt": "2026-06-14T02:36:32.564Z"
+    },
+    {
+      "url": "https://front-hmg-recebiveis.lavvi.com.br/empreendimentos/padroes-financeiros",
+      "title": "",
+      "firstSeenAt": "2026-06-14T02:36:33.919Z",
+      "lastSeenAt": "2026-06-14T02:36:36.741Z"
+    }
+  ],
+  "edges": [
+    {
+      "fromUrl": "https://front-hmg-recebiveis.lavvi.com.br/dashboard",
+      "toUrl": "https://front-hmg-recebiveis.lavvi.com.br/configuracoes/usuarios",
+      "actionText": "Empreendimentos",
+      "createdAt": "2026-06-14T02:36:31.144Z"
+    },
+    {
+      "fromUrl": "https://front-hmg-recebiveis.lavvi.com.br/configuracoes/usuarios",
+      "toUrl": "https://front-hmg-recebiveis.lavvi.com.br/configuracoes/usuarios",
+      "actionText": "Empreendimentos",
+      "createdAt": "2026-06-14T02:36:32.530Z"
+    },
+    {
+      "fromUrl": "https://front-hmg-recebiveis.lavvi.com.br/configuracoes/usuarios",
+      "toUrl": "https://front-hmg-recebiveis.lavvi.com.br/empreendimentos/padroes-financeiros",
+      "actionText": "Empreendimentos\nPadrões Financeiros\nDocumentos",
+      "createdAt": "2026-06-14T02:36:33.919Z"
+    },
+    {
+      "fromUrl": "https://front-hmg-recebiveis.lavvi.com.br/empreendimentos/padroes-financeiros",
+      "toUrl": "https://front-hmg-recebiveis.lavvi.com.br/empreendimentos/padroes-financeiros",
+      "actionText": "Empreendimentos",
+      "createdAt": "2026-06-14T02:36:35.323Z"
+    },
+    {
+      "fromUrl": "https://front-hmg-recebiveis.lavvi.com.br/empreendimentos/padroes-financeiros",
+      "toUrl": "https://front-hmg-recebiveis.lavvi.com.br/empreendimentos/padroes-financeiros",
+      "actionText": "Empreendimentos\nPadrões Financeiros\nDocumentos",
+      "createdAt": "2026-06-14T02:36:36.741Z"
+    }
+  ]
+}
